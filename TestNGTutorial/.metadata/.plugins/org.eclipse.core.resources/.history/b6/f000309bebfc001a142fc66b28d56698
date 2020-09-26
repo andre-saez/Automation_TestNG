@@ -1,0 +1,10 @@
+package testclasses;
+
+import org.testng.annotations.Test;
+
+public class TestNG_TestAnnotations {
+
+	@Test
+	public void f() {
+	}
+}

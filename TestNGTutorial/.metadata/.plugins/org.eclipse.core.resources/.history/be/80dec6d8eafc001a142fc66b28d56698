@@ -1,0 +1,17 @@
+package testclasses;
+
+import org.testng.annotations.Test;
+import appcode.SomeClassToTest;
+
+public class TestAnnotation {
+
+	@Test
+	public void testMethod1() {
+	SomeClassToTest obj = new SomeClassToTest();
+	System.out.println("Running Test -> testMethod1");	
+	}
+	
+	
+	
+	
+}

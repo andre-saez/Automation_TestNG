@@ -1,0 +1,23 @@
+package basicweb;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ChromeOptions {
+
+	static WebDriver driver;
+	static String baseUrl;
+	
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:/Program Files/Libs/Drivers/chromedriver.exe/");
+		driver = new ChromeDriver();
+		baseUrl = "https://www.expedia.com";	
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(4000, TimeUnit.SECONDS);		
+	}
+	
+	
+}

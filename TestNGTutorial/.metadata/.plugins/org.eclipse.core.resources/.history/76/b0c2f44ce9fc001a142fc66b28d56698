@@ -1,0 +1,9 @@
+package appcode;
+
+import org.testng.annotations.Test;
+
+public class SomeClassToTest {
+  @Test
+  public void f() {
+  }
+}
