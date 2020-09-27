@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-27T15:29:44 BRT" name="Default suite" finished-at="2020-09-27T15:29:44 BRT" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2020-09-27T15:29:44 BRT" name="Default test" finished-at="2020-09-27T15:29:44 BRT" duration-ms="63">
+      <class name="basicweb.BasicActions">
+        <test-method signature="test()[pri:0, instance:basicweb.BasicActions@55b7a4e0]" started-at="2020-09-27T15:29:44 BRT" name="test" finished-at="2020-09-27T15:29:44 BRT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- basicweb.BasicActions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
